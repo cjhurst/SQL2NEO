@@ -1,0 +1,3 @@
+typing==3.6.2
+antlr4_python2_runtime==4.7.1
+neo4j==1.7.0b2
