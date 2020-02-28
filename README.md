@@ -7,7 +7,7 @@ If you want to generate grammars for other languages, you will need to download 
 
 There are some very neat integrations with the Intellij platform both for ANTLR and Neo4j. I would recommend using it. It eliminates much of the command line work.
 
-running docker-compose up will spinn up neo4j without mounting the file system and persisting data. The following will mount the file system and will persist data outside the life of a container:
+running docker-compose up will spin up neo4j without mounting the file system and persisting data. The following will mount the file system and will persist data outside the life of a container:
 
 ```
 docker run --publish=7474:7474 --publish=7687:7687 --volume=$HOME/neo4j/data:/data --volume=$HOME/neo4j/logs:/logs neo4j
